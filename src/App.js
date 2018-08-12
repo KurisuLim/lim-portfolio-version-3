@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+import './css/App.css';
+import Navbar from './view/navbar';
+import Top from './view/top';
+import About from './view/about';
+import Contact from './view/contact';
+import Portfolio from './view/portfolio';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <Navbar />
+        <Top />
+        <About />
+        <Portfolio />
+        <Contact />
+      </div>
+    );
+  }
+}
+
+export default App;
