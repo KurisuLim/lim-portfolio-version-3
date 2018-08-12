@@ -10,9 +10,9 @@ class Top extends Component {
             <div className='content'>
             <h1>Christopher Lim</h1>
             <h2> Front End Developer & Fitness Enthusiast </h2>
-            <button className='btn' href='#about'>
-            <i className="fa fa-angle-double-down"></i>
-            </button>
+            <a className='btn' href='#about'>
+            <i className="fa fa-angle-double-down animated"></i>
+            </a>
             </div>
             </div>
           </section>
