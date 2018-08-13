@@ -13,7 +13,7 @@ class Portfolio extends Component {
           <h4>Some of the latest work that I completed.</h4>
           <div className='row'>
           <div className='column'>
-          <a href="https://lim-react200-movie-finder.herokuapp.com/#/"
+          <a href="http://lim-react200-movie-finder.herokuapp.com/#/"
           className='movieFinder' target="_blank">
           <img src="http://i377.photobucket.com/albums/oo212/KurisuLim/movieFinder_zpspoy9aphf.png" 
            alt="Movie Finder"/>
