@@ -87,8 +87,12 @@ section.contact
 {
   width: 100%;
   height: 100vh;
-  background: cornsilk;
+  margin: auto;
+  display: table;
+  top: 0;
   background-size: cover;
+  background-color: #f4f5f7;
+  color: #0e0101;
 }
 section.container
 {
@@ -127,7 +131,7 @@ section.container
 }
 .btn{
   position: absolute;
-  top:65%;
+  top:68%;
   left: 50%;
   transform: translate(-50%,-50%);
   /* border: 2px solid #fff; */
@@ -153,26 +157,6 @@ section.container
     transform: translateY(-50px);
     text-shadow: 0 50px 0 #fff;
   }
-  /* 20%
-  {
-    transform: translateY(-50px);
-    text-shadow: 0 10px 0 #fff;
-  }
- 40%
-  {
-    transform: translateY(-50px);
-    text-shadow: 0 -10px 0 #fff;
-  }
-  60%
-  {
-    transform: translateY(-50px);
-    text-shadow: 0 0px 0 #fff;
-  }
- 100%
-  {
-    transform: translateY(100px);
-    text-shadow: 0 -50px 0 #fff;
-  } */
 }
 .top .fa:hover
 {
@@ -266,4 +250,62 @@ section.container
 }
 .ejsPortfolio img{
   height: 155px;
+}
+.contact .inner 
+{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.contact .content 
+{
+  max-width: 500%;
+  margin: 0;
+  text-align: center;
+}
+.contact .content h1 
+{
+  font-family: 'Oswald',sans-serif;
+  color: rgb(17, 1, 1);
+  text-transform: uppercase;
+  font-size: 80px;
+}
+form {
+  width: 550px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+}
+input {
+  width: 260px;
+  height: 25px;
+}
+.name
+{
+  margin-right: 10px;
+}
+.email
+{
+  margin-left: 12px;
+}
+textarea{
+  width: 550px;
+  height: 100px;
+}
+.submit
+{
+  width: 100px;
+  height: 50px;
+  background-color: #0e0101;
+  color: #f1e9e9;
+  font-family: 'Oswald', sans-serif;
+  float: right;
+}
+.col{
+  float: left;
+  margin-left: 50px;
+}
+.contact .col a{
+  text-decoration: none;
 }
