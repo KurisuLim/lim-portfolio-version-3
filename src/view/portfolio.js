@@ -1,45 +1,44 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-//import movieFinder from '../images/movieFinder.png';
 
 class Portfolio extends Component {
     render() {
       return (
-          <div className='container'>
-          <section className='portfolio' id='portfolio'>
-          <div className='inner'>
-          <div className='content'>
+          <div className='container-fluid text-center'>
           <h2>Portfolio</h2>
-          <h4>Some of the latest work that I completed.</h4>
-          <div className='row'>
-          <div className='column'>
-          <a href="http://lim-react200-movie-finder.herokuapp.com/#/"
-          className='movieFinder' target="_blank">
-          <img src="http://i377.photobucket.com/albums/oo212/KurisuLim/movieFinder_zpspoy9aphf.png" 
-           alt="Movie Finder"/>
-          </a>
+          <h4>What I have created</h4>
+          <div className='row text-center'>
+            <div className='col-sm-4'>
+            <div className='thumbnail'>
+                <a href="https://origin-portal.herokuapp.com/" target="_blank">
+                <img src='http://i377.photobucket.com/albums/oo212/KurisuLim/portal_zpsso6kbqvv.png'
+                 alt='Portal' width='400' height='300' />
+                 </a>
+                <p><strong>Origin Portal</strong></p>
+                <p>A site we made for Employer and Student meet.</p>
+            </div>
+            </div>
+            <div className='col-sm-4'>
+                <div className='thumbnail'>
+                <a href="http://lim-react200-movie-finder.herokuapp.com/#/" target="_blank">
+                <img src='http://i377.photobucket.com/albums/oo212/KurisuLim/movieFinder_zpsaciymfgd.png' alt='Movie Finder'
+                width='400' height='300' />
+                </a>
+                <p><strong>Movie App</strong></p>
+                <p>An app that let's you search for your favorite movie.</p>
+                </div>
+            </div>
+            <div className='col-sm-4'>
+            <div className='thumbnail'>
+            <a href="http://lim-react200-movie-finder.herokuapp.com/#/" target="_blank">
+                <img src='http://i377.photobucket.com/albums/oo212/KurisuLim/weatherApp_zpsj2brvyjn.png' alt='Weather App'
+                width='400' height='300' />
+                </a>
+                <p><strong>Weather App</strong></p>
+                <p>An app that shows the current weather in any area.</p>
+            </div>
+            </div>
           </div>
-          <div className='column'>
-          <a href="https://lim-vstda.herokuapp.com/" className='vstda' target="_blank">
-          <img src="http://i377.photobucket.com/albums/oo212/KurisuLim/VSTDA_zpsx7j9eioc.png"  alt="VSTDA"/>
-          </a>
-          </div>
-          <div className='column'>
-          <a href="https://lim-weather-app.herokuapp.com/" 
-          className='Weather App' target="_blank">
-          <img src="http://i377.photobucket.com/albums/oo212/KurisuLim/weatherApp_zpsv5vgl5yo.png"  alt="Weather App"/>
-          </a>
-          </div>
-          <div className='column'>
-          <a href="https://lim-node200-ejs-portfolio.herokuapp.com/#" 
-          className='ejsPortfolio' target="_blank">
-          <img src="http://i377.photobucket.com/albums/oo212/KurisuLim/ejsPortfolio_zpsacht78bn.png"  alt="Ejs Portfolio"/>
-          </a>
-          </div>
-          </div>
-          </div>
-          </div>
-          </section>
           </div>
     );
 }

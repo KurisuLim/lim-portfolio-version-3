@@ -5,6 +5,7 @@ import Top from './view/top';
 import About from './view/about';
 import Contact from './view/contact';
 import Portfolio from './view/portfolio';
+import Services from './view/services';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Navbar />
         <Top />
         <About />
+        <Services />
         <Portfolio />
         <Contact />
       </div>

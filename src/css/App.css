@@ -1,311 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-.container{
-  margin:0;
-  padding:0;
-  font-family: 'Oswald', san-serif;
-}
-nav
-{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  padding: 10px 100px;
-  box-sizing: border-box;
-  background-color: rgba(0,0,0,.5);
-  transition: .5s;
-}
-nav .logo
-{
-  float: left;
-  text-decoration: none;
-  transition: .5s;
-  line-height: 80px;
-  text-transform: uppercase;
-  color: #fcf7f7;
-  display: flex;
-}
-nav ul
-{
-  float: right;
-  margin:0;
-  padding: 0;
-  display: flex;
-}
-nav ul li
-{
-  list-style: none;
-}
-nav ul li a
-{
-  line-height: 80px;
-  color: #f1e9e9;
-  padding: 5px 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: .5s;
-}
-nav ul li a:hover
-{
-  color: #fff;
-  background: rgb(114, 135, 230);
-}
-section.top
-{
-  width: 100%;
-  height: 100vh;
-  margin: auto;
-  background: url('../images/lake.jpg');
-  display: table;
-  top: 0;
+#dvt{
+  background-color: black;
+  background-image: url('http://i377.photobucket.com/albums/oo212/KurisuLim/26166866_1781308041888525_443652664680978078_n_zpsz9ktyxkr.jpg');
   background-size: cover;
+  margin:0;
 }
-section.about
-{
-  width: 100%;
-  height: 100vh;
-  margin: auto;
-  display: table;
-  top: 0;
+#about{
+  background-color: black;
+  background-image: url('http://i377.photobucket.com/albums/oo212/KurisuLim/26166866_1781308041888525_443652664680978078_n_zpsz9ktyxkr.jpg');
   background-size: cover;
+  margin:0;
+}
+.bg-grey{
+  background-color: #ecf0f1;
+}
+.logo-small{
+  color:#2ecc71;
+  font-size: 50px;
+}
+.thumbnail{
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+.thumbnail img{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.jumbotron {
   background-color: #1abc9c;
-  color: #ffffff;
-}
-section.portfolio
-{
-  width: 100%;
-  height: 100vh;
-  margin: auto;
-  display: table;
-  top: 0;
-  background-size: cover;
-  background-color: #474e5d;
-  color: #ffffff;
-}
-section.contact
-{
-  width: 100%;
-  height: 100vh;
-  margin: auto;
-  display: table;
-  top: 0;
-  background-size: cover;
-  background-color: #f4f5f7;
-  color: #0e0101;
-}
-section.container
-{
-  padding: 100px;
-}
-.top .inner 
-{
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-  max-width: none;
-}
-.top .content 
-{
-  max-width: 500%;
-  margin: 0;
-  text-align: center;
-}
-.top .content h1 
-{
-  font-family: 'Oswald',sans-serif;
-  color: whitesmoke;
-  text-shadow: 0px 0px 300px black;
-  font-size: 500%;
-  text-transform: uppercase;
-}
-.top .content h2
-{
-  font-family: sans-serif;
-  color: whitesmoke;
-  text-shadow: 0px 0px 300px black;
-  font-size: 180%;
-  position: relative;
-  bottom: 50px;
-
-}
-.btn{
-  position: absolute;
-  top:68%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  /* border: 2px solid #fff; */
-  border-radius: 50%;
-  /* width: 5%; */
-  /* height: 10%; */
-  text-align: center;
-  line-height: 110px;
-  font-size: 80px;
-  overflow: hidden;
-}
-.top .fa 
-{
   color: #fff;
-  margin: 0;
-  padding: 0;
-  animation: animate 1s linear infinite;
+  padding:100px 25px;
 }
-@keyframes animate
-{
-  0%
-  {
-    transform: translateY(-50px);
-    text-shadow: 0 50px 0 #fff;
-  }
-}
-.top .fa:hover
-{
-  animation: none;
-}
-.about .inner 
-{
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-  max-width: none;
-}
-.about .content 
-{
-  max-width: 500%;
-  margin: 0;
-  text-align: center;
-}
-.about .content h1 
-{
-  font-family: 'Oswald',sans-serif;
-  color: whitesmoke;
-  text-shadow: 0px 0px 300px black;
-  font-size: 500%;
-  text-transform: uppercase;
-}
-.about .content img
-{
+#myPic{
   display: inline;
-  border-radius: 50%;
 }
-.about .content h2
-{
-  font-family: sans-serif;
-  font-size: 180%;
-  position: relative;
+.container-fluid {
+  padding: 60px 50px;
 }
-.about .content p
-{
-  position: relative;
-  left: 35%;
-  text-align: center;
-  width: 30%;
-  word-wrap: break-word;
-}
-.portfolio .inner 
-{
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-  max-width: none;
-}
-.portfolio .content 
-{
-  max-width: 500%;
-  margin: 0;
-  text-align: center;
-}
-.portfolio .content h2 
-{
-  font-family: sans-serif;
-  font-size: 300%;
-  position: relative;
-  bottom: 250px;
-}
-.portfolio .content h4
-{
-  font-family: sans-serif;
-  font-size: 100%;
-  position: relative;
-  bottom: 250px;
-}
-.portfolio img
-{
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 280px;
-}
-.portfolio img:hover
-{
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-.column {
-  float: left;
-  width: 23%;
-  padding: 10px;
-}
-.vstda img{
-  height: 165px;
-}
-.ejsPortfolio img{
-  height: 155px;
-}
-.contact .inner 
-{
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-  max-width: none;
-}
-.contact .content 
-{
-  max-width: 500%;
-  margin: 0;
-  text-align: center;
-}
-.contact .content h1 
-{
-  font-family: 'Oswald',sans-serif;
-  color: rgb(17, 1, 1);
-  text-transform: uppercase;
-  font-size: 80px;
-}
-form {
-  width: 550px;
-  height: 450px;
-  margin: auto;
-  position: relative;
-}
-input {
-  width: 260px;
-  height: 25px;
-}
-.name
-{
-  margin-right: 10px;
-}
-.email
-{
-  margin-left: 12px;
-}
-textarea{
-  width: 550px;
-  height: 100px;
-}
-.submit
-{
-  width: 100px;
-  height: 50px;
-  background-color: #0e0101;
-  color: #f1e9e9;
-  font-family: 'Oswald', sans-serif;
-  float: right;
-}
-.col{
-  float: left;
-  margin-left: 50px;
-}
-.contact .col a{
-  text-decoration: none;
+@media screen and (max-width: 768px) {
+  .col-sm-4{
+    text-align:center;
+    margin:25 px 0;
+
+  }  
 }
