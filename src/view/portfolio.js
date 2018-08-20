@@ -4,7 +4,7 @@ import '../css/App.css';
 class Portfolio extends Component {
     render() {
       return (
-          <div className='container-fluid text-center'>
+          <div className='container-fluid text-center' id='portfolio'>
           <h2>Portfolio</h2>
           <h4>What I have created</h4>
           <div className='row text-center'>

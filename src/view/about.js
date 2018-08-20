@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-// import myPhoto from '../images/myPhoto';
 
 class About extends Component {
     render() {
       return (
-          <div className='container-fluid'>
+          <div className='container-fluid' id='about'>
             <div className='row'>
             <div className='col-sm-8'>
             <h2>About</h2>

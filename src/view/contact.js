@@ -5,7 +5,7 @@ import '../css/App.css';
 class Contact extends Component {
     render() {
       return (
-          <div className='container-fluid bg-grey'>
+          <div className='container-fluid bg-grey' id='contact'>
             <h2 className='text-center'>CONTACT</h2>
             <div className='row'>
               <div className='col-sm-5'>

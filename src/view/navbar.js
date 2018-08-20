@@ -4,28 +4,26 @@ import '../css/App.css';
 class Navbar extends Component {
   render() {
     return (
-      <div className="container">
-        <nav className='nav' id='nav'>
-          <a className='logo' href='#top'>Christopher Lim</a>
-          <ul>
-            <li>
-              <a href='#about'>
-                About Me
-              </a>
-            </li>
-            <li>
-              <a href='#portfolio'>
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a href='#contact'>
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav className='navbar navbar-default navbar-fixed-top'>
+        <div className='container'>
+          <div className='navbar-header'>
+            <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
+            <span className='icon-bar'></span>
+            <span className='icon-bar'></span>
+            <span className='icon-bar'></span>
+            </button>
+            <a className='navbar-brand' href='#'>Lim</a>
+          </div>
+          <div className='collapse navbar-collapse' id='myNavbar'>
+            <ul className='nav navbar-nav navbar-right'>
+            <li><a href='#about'>ABOUT</a></li>
+            <li><a href='#services'>SERVICES</a></li>
+            <li><a href='#portfolio'>PORTFOLIO</a></li>
+            <li><a href='#contact'>CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     );
   }
 }

@@ -4,7 +4,7 @@ import '../css/App.css';
 class Services extends Component {
     render() {
       return (
-          <div className='container-fluid text-center bg-grey'>
+          <div className='container-fluid text-center bg-grey' id='services'>
           <h2>Services</h2>
           <h4>My Current Skills</h4>
           <br />
