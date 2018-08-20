@@ -6,7 +6,6 @@ import About from './view/about';
 import Contact from './view/contact';
 import Portfolio from './view/portfolio';
 import Services from './view/services';
-import Maps from './view/maps';
 import Footer from './view/footer';
 class App extends Component {
   render() {
